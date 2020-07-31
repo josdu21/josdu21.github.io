@@ -28,6 +28,7 @@ header {
     height: 70px;
     width: 600px;
 }
+
 .menu-header nav ol {
     margin: 0px;
     padding: 0px;
@@ -44,10 +45,30 @@ header {
     color: #3d3d3d;
     font-size: 18px;
     font-weight: bold;
-    font-style:;
+    font-family: 'Red Rose';
 }
 
 .menu-header nav ol a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    background-color: rgb(243, 243, 243);
 }
 
+main .section1-image {
+    width: 1536px;
+    height: 500px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/26/08/43/ribblehead-viaduct-2443085_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 1536px 500px;
+}
+
+main .section1-image h1 {
+    display: flex;
+    width: 1536px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    color: #3d3d3d;
+    font-family: 'Red Rose';
+    font-weight: bold;
+    font-size: 35px;
+}
