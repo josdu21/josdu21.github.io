@@ -54,21 +54,22 @@ header {
 }
 
 main .section1-image {
-    width: 1536px;
+    width: auto;
     height: 500px;
     background-image: url(/images-logos/Acueducto.png);
-    background-repeat: no-repeat;
-    background-size: 1536px 500px;
+    background-repeat: repeat;
+    background-size: 1920px 500px;
 }
 
 main .section1-image h1 {
+    margin: 0px;
     display: flex;
-    width: 1536px;
-    height: 300px;
+    width: auto;
+    height: 500px;
     align-items: center;
     justify-content: center;
     color: #ffffff;
     font-family: 'Red Rose';
     font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
 }
